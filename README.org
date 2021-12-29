@@ -1,7 +1,7 @@
 
 #+TITLE: suckless terminal custom build
-#+DESCRIPTION: My st (simple terminal) build
-#+AUTHOR: SamuelNihBos
+#+DESCRIPTION: My st (simple (suckless?) terminal) build
+#+AUTHOR: SamuelNihBos 
 
 * Table of Contents :toc:
 - [[#what-is-st][What is st?]]
