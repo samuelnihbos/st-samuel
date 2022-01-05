@@ -1,10 +1,10 @@
 # Maintainer: SamuelNihBos
 pkgname=st-samuel-git
-pkgver=0.8.4.r32.835d7b3
+pkgver=0.8.4.r12.11269e6
 pkgrel=1
 pkgdesc="A patched and customized build of st"
 arch=(x86_64)
-url="https://github.com/SamuelNihBos1/st-samuel.git"
+url="https://gitlab.com/samuelnihbos/st-samuel.git"
 license=('MIT')
 groups=()
 depends=(ttf-hack ttf-joypixels)
@@ -32,7 +32,7 @@ build() {
 }
 
 package() {
-  cd st-distrotube  
+  cd st-samuel  
   mkdir -p ${pkgdir}/opt/${pkgname}
   cp -rf * ${pkgdir}/opt/${pkgname}
   make PREFIX=/usr DESTDIR="${pkgdir}" install
